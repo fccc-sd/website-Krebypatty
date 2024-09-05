@@ -29,3 +29,29 @@ ul{
     list-style-type: disc;
     list-style-position: inside;
 }
+
+nav {
+    background-color: aqua;
+    line-height: 2em;
+    display: block;
+}
+
+nav li {
+    display: inline;
+    padding-right: 40px;
+    list-style-type: none;
+}
+
+nav a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
