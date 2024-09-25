@@ -31,7 +31,7 @@ ul{
 }
 
 nav {
-    background-color: aqua;
+    background-color: lightskyblue;
     line-height: 2em;
     display: block;
 }
@@ -43,12 +43,12 @@ nav li {
 }
 
 nav a:link {
-    color: blue;
+    color: rgb(8, 3, 51);
     text-decoration: none;
 }
 
 nav a:visited {
-    color: blue;
+    color: rgb(8, 3, 51);
     text-decoration: none;
 }
 
