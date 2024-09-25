@@ -55,3 +55,23 @@ nav a:visited {
 nav a:hover {
     text-decoration: underline;
 }
+
+table {
+    border: solid 2px lightskyblue;
+    border-collapse: collapse;
+}
+
+th, tr, td {
+    border: solid 2px lightskyblue;
+    padding: 5px;
+}
+
+th {
+    text-align: center;
+}
+
+caption {
+    caption-side: top;
+    margin: 5px;
+    font-weight: bold;
+}
