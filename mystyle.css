@@ -1,5 +1,5 @@
 header {
-    color:rgb(8, 3, 51);
+    color:#184275;
     text-align: center;
     background-color: lightskyblue;
     line-height: 2em;
@@ -14,7 +14,6 @@ h2 {
 }
 
 #content {
-    background-color: rgb(8, 3, 51);
     color:lightskyblue;
 }
 
@@ -44,12 +43,12 @@ nav li {
 }
 
 nav a:link {
-    color: rgb(8, 3, 51);
+    color: #184275;
     text-decoration: none;
 }
 
 nav a:visited {
-    color: rgb(8, 3, 51);
+    color: #184275;
     text-decoration: none;
 }
 
@@ -99,6 +98,7 @@ p {
 }
 
 body{
-    background-color: rgb(8, 3, 51);
+    background-image: url(images/moroccan-flower-dark.png);
+    background-color: #184275;
     background-attachment: fixed;
 }
