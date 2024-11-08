@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="pizza_form" content="my pizza order form, pizza order form">
+    <title>Pizza Order Form</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+    <header>
+        <h1>Pizza Form</h1>
+        <h4>Design Your Perfect Pizza</h4>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" title="Home Page">Home</a></li>
+            <li><a href="spaghetti_recipe.html" title="Spaghetti Recipe">Spaghetti Recipe</a></li>
+            <li><a href= "projectone.html" title="Pong Game"> Pong Game</a></li>
+            <li><a href= "pizza_order_form.html" title="Pizza Form"> Pizza Form</a></li>
+        </ul>
+    </nav>
+
+    <form id="pizza_form" method="post">
+        <p>Please enter your Pizza Order</p>
+        <p>Name: <input type="text" name="name" id="name" placeholder="Enter your name"></p><br>
+        <p>Address: <input type="text" name="address" id="address" placeholder="Enter your address"></p><br>
+        <p>Phone: <input type="text" name="phone" id="phone" placeholder="Enter your phone number"></p><br>
+        
+        <p>Size:</p>
+        <input type="radio" name="small" id="small">
+        <label for="small">Small</label><br>
+        <input type="radio" name="medium" id="medium">
+        <label for="medium">Medium</label><br>
+        <input type="radio" name="large" id="large">
+        <label for="large">Large</label><br>
+
+        <p>Toppings</p>
+        <input type="checkbox" name="pepperoni" id="pepperoni">
+        <label for="pepperoni">Pepperoni</label><br>
+        <input type="checkbox" name="mushroom" id="mushroom">
+        <label for="mushroom">Mushrooms</label><br>
+        <input type="checkbox" name="extra_cheese" id="extra_cheese">
+        <label for="extra_cheese">Extra Cheese</label><br>
+        <input type="checkbox" name="sausage" id="sausage">
+        <label for="sausage">Sausage</label><br>
+        <input type="checkbox" name="onion" id="onion">
+        <label for="onion">Onions</label><br>
+
+        <p>Notes to the cook:</p><textarea name="note_to_cook" id="note_to_cook" cols="30" rows="10" placeholder="Enter any special requests"></textarea>
+        
+        <p><input type="submit" value="Submit"></p>
+        <p><input type="reset" value="Reset"></p>
+    </form>    
+</body>
+</html>
