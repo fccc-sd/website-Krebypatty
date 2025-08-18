@@ -1,0 +1,49 @@
+h2, h1, p, ul
+{
+    color: rgb(146, 255, 255);
+}
+
+body
+{
+    background-color: black;
+}
+
+#container
+{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(48, 48, 48);
+}
+
+div
+{
+    background-color: rgb(73, 73, 73);
+}
+
+main
+{
+    background-color: rgb(56, 56, 56);
+    width: 760px;
+    min-height: 250px;
+    margin-left: 50px;
+    float: right;
+}
+
+aside
+{
+    background-color: rgb(56, 56, 56);
+    width: 200px;
+    min-height: 250px;
+    float: left;
+}
+
+header
+{
+    background-color: rgb(56, 56, 56);
+}
+
+nav ul
+{
+    padding: 1em 0;
+}
