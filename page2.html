@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+    <div id="container">
+        <header><h1>JavaScript Assignments</h1></header>
+
+        <nav id="nav_menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="page2.html">JavaScript Assignments</a></li>
+            </ul>
+        </nav> 
+
+        <aside><h1>Assignment 1: Getting Started with JavaScript</h1></aside>
+        
+        <main>
+            <h1>Convert from Fahrenheit to Celsius</h1>
+
+            <script>
+            let user_input = parseFloat(prompt("Enter Fahrenheit temperature"));
+
+            let celsius = (user_input - 32) * 5/9;
+
+            document.write (`${user_input.toFixed(1)} F = ${celsius.toFixed(1)} C`);
+
+            
+            </script>
+        </main>
+
+        
+
+    </div>
+</body>
+</html>

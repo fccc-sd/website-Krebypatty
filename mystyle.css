@@ -1,6 +1,9 @@
+
+
 h2, h1, p, ul
 {
     color: rgb(146, 255, 255);
+    text-align: center;
 }
 
 body
@@ -23,16 +26,15 @@ div
 
 main
 {
-    background-color: rgb(56, 56, 56);
+    background-color: rgb(48, 48, 48);
     width: 760px;
+    margin-left: 200px;
     min-height: 250px;
-    margin-left: 50px;
-    float: right;
 }
 
 aside
 {
-    background-color: rgb(56, 56, 56);
+    background-color: rgb(48, 48, 48);
     width: 200px;
     min-height: 250px;
     float: left;
@@ -43,7 +45,23 @@ header
     background-color: rgb(56, 56, 56);
 }
 
-nav ul
+#nav_menu ul
 {
-    padding: 1em 0;
+    list-style-type: none;
+    display: flex;
+    align-self: center;
+}
+
+
+
+#nav_menu ul li a
+{
+    text-align: center;
+    display: block;
+    width: 430px;
+    text-decoration: none;
+    background-color: rgb(56, 56, 56);
+    color: rgb(146, 255, 255);
+    font-weight: bold;
+    border: 2px solid rgb(146, 255, 255);
 }
