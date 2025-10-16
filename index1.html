@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="slick.css">
+</head>
+    
+<body>
+    <div id="container">
+        <header>
+            <h1>Ajax Meme Page</h1>
+        </header>
+
+        <nav id="nav_menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="page2.html">JavaScript Assignments</a></li>
+                        <li><a href="ajax_meme.html">Ajxax Project</a></li>
+                    </ul>
+                </nav> <br>
+        <div>
+                <input type="button" id="test" value="Get Memes">
+        </div>
+        <div class="page-wrapper">
+
+            <div class="post-slider">
+            
+                <div class="post-wrapper">
+                    <div class="post">
+                        <div class="post-1"></div>
+                    </div>
+                    <div class="post">
+                        <div class="post-2"></div>
+                    </div>
+                    <div class="post">
+                        <div class="post-3"></div>
+                    </div>
+                    <div class="post">
+                        <div class="post-4"></div>
+                    </div>
+                    <div class="post">
+                        <div class="post-5"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <script src="javascript.js"></script>
+    <script src="slick.js"></script>
+    <script>
+        $( ".post-wrapper" ).slick({
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 1
+        });
+    </script> 
+    
+</body>
+</html>
